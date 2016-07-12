@@ -30,7 +30,7 @@ keystone.init({
 // Could allso use keystone.set( )
 // enabbles cool features
 	'wysiwyg skin': 'lightgray',
-	'wysiwyg additional buttons': 'searchreplace visualchars,'
+	'wysiwyg additional buttons': 'styleselect fontsizeselect blockquote formats ,searchreplace visualchars,'
 	 + ' charmap ltr rtl pagebreak paste, forecolor backcolor,'
 	 + ' emoticons media, preview print ',
 	'wysiwyg additional plugins': 'example, table, advlist, anchor,'
