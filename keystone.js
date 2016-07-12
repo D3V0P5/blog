@@ -25,7 +25,20 @@ keystone.init({
 	'session': true,
 	'auth': true,
 	'user model': 'User',
-	'port' : 8000 , 
+	'port' : 8000 ,
+
+// Could allso use keystone.set( )
+// enabbles cool features
+	'wysiwyg skin': 'lightgray',
+	'wysiwyg additional buttons': 'searchreplace visualchars,'
+	 + ' charmap ltr rtl pagebreak paste, forecolor backcolor,'
+	 + ' emoticons media, preview print ',
+	'wysiwyg additional plugins': 'example, table, advlist, anchor,'
+	 + ' autolink, autosave, bbcode, charmap, contextmenu, '
+	 + ' directionality, emoticons, fullpage, hr, media, pagebreak,'
+	 + ' paste, preview, print, searchreplace, textcolor,'
+	 + ' visualblocks, visualchars, wordcount',
+
 });
 
 // Load your project's Models
