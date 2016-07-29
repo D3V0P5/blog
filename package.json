@@ -8,6 +8,7 @@
     "forever": "^0.15.2",
     "keystone": "^0.3.19",
     "lodash": "^4.13.1",
+    "tinymce": "^4.4.0",
     "unicode": "^0.6.1"
   },
   "devDependencies": {
